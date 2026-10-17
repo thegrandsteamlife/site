@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shop | The Grand Steam Life</title>
+  <meta name="description" content="Buy veniks, felt banya hats, sauna buckets and ladles, peshtemals, kese mitts and more.">
+  <meta property="og:title" content="Shop | The Grand Steam Life">
+  <meta property="og:description" content="Buy veniks, felt banya hats, sauna buckets and ladles, peshtemals, kese mitts and more.">
+  <link rel="icon" href="assets/img/favicon-64.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <meta property="og:image" content="assets/img/og-image.jpg">
+  <meta name="theme-color" content="#0F233C">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500&family=Prata&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-root="">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="wordmark" href="index.html"><img src="assets/img/logo-160.png" alt="" width="52" height="52"><span>The Grand Steam Life</span></a>
+      <button class="btn btn--ghost nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+        <a href="shop.html" aria-current="page">Shop</a>
+        <button class="btn cart-button" data-cart-open>Cart <span class="count" data-cart-count>0</span></button>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="page-intro">
+      <div class="wrap">
+        <h1>Shop</h1>
+        <p>Accessories for the banya, the hammam and the sauna, shipped across Australia.</p>
+      </div>
+    </section>
+    <section class="section" style="padding-top:1rem">
+      <div class="wrap">
+        <div class="filters" role="group" aria-label="Filter products">
+          <button data-filter="all" aria-pressed="true">All</button>
+          <button data-filter="banya" aria-pressed="false">Banya</button>
+          <button data-filter="hammam" aria-pressed="false">Hammam</button>
+          <button data-filter="sauna" aria-pressed="false">Sauna</button>
+        </div>
+        <div class="product-grid" data-products=""></div>
+        <noscript><p>Turn on JavaScript to browse products, or email <a href="mailto:orders@thegrandsteamlife.com.au">orders@thegrandsteamlife.com.au</a> to order.</p></noscript>
+      </div>
+    </section>
+    <section class="section section--bark">
+      <div class="wrap shop-notes">
+        <div><h3>How ordering works</h3><p>Add items to your cart and select Send order. We’ll reply to confirm stock, shipping and payment details.</p></div>
+        <div><h3>Shipping</h3><p>We ship Australia-wide. Postage is calculated on your order and confirmed before you pay.</p></div>
+        <div><h3>Returns</h3><p>Unused items can be returned within 30 days. Your rights under Australian Consumer Law are not affected.</p></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <img class="footer-logo" src="assets/img/logo-160.png" alt="The Grand Steam Life logo" width="96" height="96">
+        <p>Banya, hammam and sauna accessories, chosen for real heat and made to last. Inspired by the Russian banya, shipped across Australia.</p>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <ul><li><a href="about.html">About</a></li><li><a href="blog.html">Blog</a></li><li><a href="shop.html">Shop</a></li></ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <ul><li><a href="mailto:hello@thegrandsteamlife.com.au">hello@thegrandsteamlife.com.au</a></li></ul>
+      </div>
+      <p class="legal">© <span data-year>2026</span> The Grand Steam Life. Information on this site is general in nature and is not medical advice. Check with your doctor before using a sauna, banya or hammam if you are pregnant or have a health condition.</p>
+    </div>
+  </footer>
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
